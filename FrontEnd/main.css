@@ -77,11 +77,12 @@ hr{
     text-align: center;
     position:relative;
     top:10vw;
-    margin: 0px auto;
+    margin: 0% auto;
 }
 
 #start:hover{
     background-color: rgba(95, 12, 1, 0.45);
+    cursor:pointer;
 }
 
 .card-footer{
