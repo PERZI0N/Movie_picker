@@ -5,11 +5,13 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Movie Picker</title>
+    <title>Movie Picker/Genres/Fantasy</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel='stylesheet' href='css/bootstrap.min.css'>
-    <link rel='stylesheet' href='main.css'>
+    <link rel='stylesheet' href='Genres.css'>
+    <script src="Main.js"></script>
 </head>
 
 <body>
@@ -54,12 +56,33 @@
   </nav>
 </header>
 
-<div>
-  <h1 id="bloghead">How's your mood now</h1>
-  <h3 id="bloghead"> Happy | Sad | Frustrated </h3>
+<h2 class="ghead"> Fantasy Movies </h2>
+
+<!-- Flickity HTML init -->
+<div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true, "group-cells":7}'>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy1.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy2.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy3.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy4.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy5.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy6.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy7.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy8.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy9.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy10.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy11.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy12.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy13.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Fantasy/fantasy14.jpg" alt></div>
 </div>
 
+<div class="gpost">
+    <h2>List:</h2>
+    <div class="glist">
 
+    </div>
+</div>
 
 <footer class="card-footer">
   <div style="display: flex;" >
@@ -73,10 +96,12 @@
   </div>
 </footer>
 
-
 <script src="js/jquery-2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script> 
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script> -->
+
 
 </body>
 

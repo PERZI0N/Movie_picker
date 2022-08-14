@@ -8,6 +8,7 @@
     <title>Movie Picker/Genres/Action</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='Genres.css'>
     <script src="Main.js"></script>
@@ -31,14 +32,14 @@
                 Genres
               </a>
               <ul class="dropdown-menu bg-dark bg-opacity-75">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Horror</a></li>
-                <li><a class="dropdown-item" href="#">Romance</a></li>
-                <li><a class="dropdown-item" href="#">Thriller</a></li>
-                <li><a class="dropdown-item" href="#">Drama</a></li>
-                <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
-                <li><a class="dropdown-item" href="#">Comedy</a></li>
-                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                <li><a class="dropdown-item" href="Action.html">Action</a></li>
+                <li><a class="dropdown-item" href="Horror.html">Horror</a></li>
+                <li><a class="dropdown-item" href="Romance.html">Romance</a></li>
+                <li><a class="dropdown-item" href="Thriller.html">Thriller</a></li>
+                <li><a class="dropdown-item" href="Drama.html">Drama</a></li>
+                <li><a class="dropdown-item" href="Scif.html">Sci-Fi</a></li>
+                <li><a class="dropdown-item" href="Comedy.html">Comedy</a></li>
+                <li><a class="dropdown-item" href="Fantasy.html">Fantasy</a></li>
               </ul>
             </li>
             <a class="nav-link active" aria-current="page" href="Top10.html">Top 10 Movies</a><hr>
@@ -55,28 +56,35 @@
   </nav>
 </header>
 
-<!-- <base href="action1.jpg"> -->
-<div style="display:inline;">
-    <div id="slider1">
-        <figure>
-            <img src="action1.jpg" alt>
-            <img src="action1.jpg" alt>
-            <img src="action1.jpg" alt>
-            <img src="action1.jpg" alt>
-            <img src="action1.jpg" alt>
-        </figure>
-        </div>
-        <div id="slider2">
-            <figure>
-                <img src="action1.jpg" alt>
-                <img src="action1.jpg" alt>
-                <img src="action1.jpg" alt>
-                <img src="action1.jpg" alt>
-                <img src="action1.jpg" alt>
-            </figure>
-            </div>
+<h2 class="ghead"> Action Movies </h2>
+
+<!-- Flickity HTML init -->
+<div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true, "group-cells":7}'>
+  <div ><img class="gallery-cell" src="/Action/action1.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action2.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action3.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action4.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action5.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action6.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action7.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action8.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action9.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action10.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action11.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action12.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action13.jpg" alt></div>
+  <div ><img class="gallery-cell" src="/Action/action14.jpg" alt></div>
+</div>
+
+<div class="gpost">
+    <h2>List:</h2>
+    <div class="glist">
+
+    </div>
 
 </div>
+
 
 
 
@@ -92,10 +100,12 @@
   </div>
 </footer>
 
-
 <script src="js/jquery-2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script> 
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script> -->
+
 
 </body>
 
