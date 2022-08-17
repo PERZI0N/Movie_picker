@@ -175,3 +175,23 @@ div.btn-group{
     margin:10%;
     font-size: 1.5em;
 }
+
+div button{
+    height: 2em;
+    width: 5em;
+    background-color:rgba(155, 38, 9, 0.85);
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 18px;
+    color: white;
+    /* font-size: 30px; */
+    /* font-weight: bolder; */
+    text-align: center;
+    position:relative;
+    /* top:10vw; */
+    margin: 0;
+}
+
+div button:hover{
+    background-color: rgba(95, 12, 1, 0.45);
+    cursor:pointer;
+}
