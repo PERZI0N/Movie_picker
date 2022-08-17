@@ -69,7 +69,7 @@ hr{
     height: 8%;
     width: 170px;
     background-color:rgba(155, 38, 9, 0.85);
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 2px;
     border-radius: 18px;
     color: white;
     font-size: 30px;
@@ -103,14 +103,14 @@ hr{
 
 /* Main Page End */
 
-/* Blog Page */
+/* Blog and Top 10 page */
 
 #bloghead{
     text-shadow: 2px 2px 80px white;
     color: whitesmoke;
     text-align: center;
     position: relative;
-    top:4.5vw;
+    top:3.5vw;
 }
 
 #bpost{
@@ -137,6 +137,23 @@ hr{
     display:flow-root;
     padding: 2% 1%;
 }
+
+#topimg1{
+    height: auto;
+    width: 18vw;
+    float: left;
+    margin: 0.5% 2.5% 0.5% 0%;
+    border: 2px white solid;
+}
+#topimg2{
+    height: auto;
+    width: 18vw;
+    float: right;
+    margin: 0.5% 0% 0.5% 2.5%;
+    border: 2px white solid;
+}
+
+/* Blog and Top 10 page End */
 
 
 
