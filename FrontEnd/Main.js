@@ -63,7 +63,7 @@ document.getElementById("start").onclick=function(){
     location.href = 'Q1.html';
 };
 
-document.getElementById("Q1Next").onclick=function(){
+document.getElementById("Q1Next").onclick=Q1(){
     location.href = 'Q2.html';
 };
 
