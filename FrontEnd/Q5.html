@@ -57,22 +57,25 @@
 
 <div>
   <form method="post" style="display: flex; flex-direction: column;">
-    <div><h2> How's your mood right now??</h2></div>
+    <div><h2> How old would you like the movie to be?</h2></div>
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="Mood" id="btnradio1" autocomplete="off" checked>
-      <label class="btn btn-outline-primary" for="Happy">Happy</label>
+      <input type="radio" class="btn-check" name="old" id="recent" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="recent">Recently released</label>
     
-      <input type="radio" class="btn-check" name="Mood" id="btnradio2" autocomplete="off">
-      <label class="btn btn-outline-primary" for="Neutral">Neutral</label>
-    
-      <input type="radio" class="btn-check" name="Mood" id="btnradio3" autocomplete="off">
-      <label class="btn btn-outline-primary" for="Sad">Sad</label>
+      <input type="radio" class="btn-check" name="old" id="0020" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="0020"> Released in 2000-2020</label>
+
+      <input type="radio" class="btn-check" name="old" id="8000" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="0080">Released in 1980-2000</label>
+
+      <input type="radio" class="btn-check" name="old" id="before80" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="before80">Released before 1980</label>
     </div>
 
     <div class="btns">
-      <div> <button type="reset" id="Q1Pre" onclick="location.href ='Main.html';"> Previous</button></div>
+      <div> <button type="reset" id="Q5Pre" onclick="location.href ='Q4.html';"> Previous</button></div>
       <div> <button type="reset"> Reset </button> </div>
-      <div> <button type="submit" value="Next" id="Q1Next" onclick="location.href ='Q2.html';">Next</button> </div>
+      <div> <button type="submit" value="Next">Next</button> </div>
     </div>
   </form>
 </div>

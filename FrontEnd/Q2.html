@@ -57,22 +57,25 @@
 
 <div>
   <form method="post" style="display: flex; flex-direction: column;">
-    <div><h2> How's your mood right now??</h2></div>
+    <div><h2> What comes closest t your ocassion?</h2></div>
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="Mood" id="btnradio1" autocomplete="off" checked>
-      <label class="btn btn-outline-primary" for="Happy">Happy</label>
+      <input type="radio" class="btn-check" name="Ocassion" id="Family" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="Family">With Family</label>
     
-      <input type="radio" class="btn-check" name="Mood" id="btnradio2" autocomplete="off">
-      <label class="btn btn-outline-primary" for="Neutral">Neutral</label>
+      <input type="radio" class="btn-check" name="Ocassion" id="Alone" autocomplete="off">
+      <label class="btn btn-outline-primary" for="Alone">Watch Alone</label>
     
-      <input type="radio" class="btn-check" name="Mood" id="btnradio3" autocomplete="off">
-      <label class="btn btn-outline-primary" for="Sad">Sad</label>
+      <input type="radio" class="btn-check" name="Ocassion" id="Friends" autocomplete="off">
+      <label class="btn btn-outline-primary" for="Friends">With Friends</label>
+
+      <input type="radio" class="btn-check" name="Ocassion" id="Date" autocomplete="off">
+      <label class="btn btn-outline-primary" for="Date">Movie Date</label>
     </div>
 
     <div class="btns">
-      <div> <button type="reset" id="Q1Pre" onclick="location.href ='Main.html';"> Previous</button></div>
+      <div> <button type="reset" id="Q2Pre" onclick="location.href ='Q1.html';"> Previous</button></div>
       <div> <button type="reset"> Reset </button> </div>
-      <div> <button type="submit" value="Next" id="Q1Next" onclick="location.href ='Q2.html';">Next</button> </div>
+      <div> <button type="submit" value="Next">Next</button> </div>
     </div>
   </form>
 </div>
