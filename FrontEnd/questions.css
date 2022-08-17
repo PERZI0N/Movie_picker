@@ -283,3 +283,11 @@ div.btn-group5{
 .btn-group5>.btn-group5:not(:first-child)>.btn5, .btn-group5>.btn5:nth-child(n+3), .btn-group5>:not(.btn-check)+.btn5{
     border-radius: 20px;
 }
+
+button a{
+    text-decoration: none;
+}
+
+button a:hover{
+    color: inherit;
+}

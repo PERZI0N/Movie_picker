@@ -113,5 +113,13 @@ hr{
     height:fit-content;
     box-shadow: 5px 5px 20px rgb(112, 112, 112); 
     font-family: 'Montserrat', sans-serif;
+}
 
+.gpost h2{
+    color: red;
+    margin-bottom: 1em;
+}
+
+.glist{
+    columns: 2;
 }

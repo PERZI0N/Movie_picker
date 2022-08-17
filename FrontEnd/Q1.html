@@ -60,7 +60,7 @@
     <div><h1> How's your mood right now??</h1></div>
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
 
-      <input type="radio" value="Happy" class="btn-check" name="Mood" id="Happy" autocomplete="off" checked>
+      <input type="radio" value="Happy" class="btn-check" name="Mood" id="Happy" autocomplete="off">
       <label class="btn btn-outline-primary" for="Happy">Happy</label>
     
       <input type="radio" value="Neutral" class="btn-check" name="Mood" id="Neutral" autocomplete="off">
@@ -73,7 +73,7 @@
     <div class="btns">
       <div> <button type="reset" id="Q1Pre" onclick="location.href ='Main.html';"> Previous</button></div>
       <div> <button type="reset"> Reset </button> </div>
-      <div> <button type="submit" value="Next" id="Q1Next" onclick="location.href ='Q2.html;Q1()'">Next</button> </div>
+      <div> <button type="submit" value="Next" id="Q1Next" onclick="Q1();"><a href="Q2.html">Next</a></button> </div>
     </div>
   </form>
 </div>
