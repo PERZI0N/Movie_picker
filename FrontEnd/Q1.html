@@ -59,20 +59,21 @@
   <form method="post" style="display: flex; flex-direction: column;">
     <div><h1> How's your mood right now??</h1></div>
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="Mood" id="Happy" autocomplete="off">
+
+      <input type="radio" value="Happy" class="btn-check" name="Mood" id="Happy" autocomplete="off" checked>
       <label class="btn btn-outline-primary" for="Happy">Happy</label>
     
-      <input type="radio" class="btn-check" name="Mood" id="Neutral" autocomplete="off">
+      <input type="radio" value="Neutral" class="btn-check" name="Mood" id="Neutral" autocomplete="off">
       <label class="btn btn-outline-primary" for="Neutral">Neutral</label>
     
-      <input type="radio" class="btn-check" name="Mood" id="Sad" autocomplete="off">
+      <input type="radio" value="Sad" class="btn-check" name="Mood" id="Sad" autocomplete="off">
       <label class="btn btn-outline-primary" for="Sad">Sad</label>
     </div>
 
     <div class="btns">
       <div> <button type="reset" id="Q1Pre" onclick="location.href ='Main.html';"> Previous</button></div>
       <div> <button type="reset"> Reset </button> </div>
-      <div> <button type="submit" value="Next" id="Q1Next" onclick="location.href ='Q2.html';">Next</button> </div>
+      <div> <button type="submit" value="Next" id="Q1Next" onclick="location.href ='Q2.html;Q1()'">Next</button> </div>
     </div>
   </form>
 </div>

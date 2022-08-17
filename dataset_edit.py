@@ -3,10 +3,10 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 import random
 mood = ["Happy","Sad","Neutral"]
-genre = ["Action","Horror","Thriller","Drama","Biopic","Fantasy","Sci/Fi","Comedy","Animated","Romantic"]
-age = ["G-rated","PG-Rated","PG-13 Rated","R-Rated"]
-ocn = ["Family","Friends","Date-Night","Alone"]
-year = ["past 10 years","Past 20 years","Past 5 years","Recent"]
+genre = ["Action","Horror","Thriller","Drama","Fantasy","Scif","Comedy","Romance"]
+age = ["gRated","pgRated","pg13Rated","rRated"]
+ocn = ["Family","Friends","Date","Alone"]
+year = ["before80","8000","0020","recent"]
 idb = [5,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,6,6.1,6.2,6.3,6.4,6.5,6.6,6.7,6.8,6.9,7,7.1,7.2,7.3,7.4,7.5,7.6,7.7,7.8,7.9,8,8.1,8.2,8.3,8.4,8.5,8.6,8.7,8.8,8.9,9,9.1,9.2,9.3,9.4,9.5,9.6,9.7,9.8,9.9]
 data = pd.read_excel("movies.xlsx")
 updt = pd.ExcelWriter("final.xlsx")
@@ -23,7 +23,7 @@ df = data.assign(Mood = moods)
 df.to_excel(updt,'Sheet1')
 genf = []
 for i in range(data['title'].size):
-    genf.append(random.randint(0,9))
+    genf.append(random.randint(0,7))
 gens=[]
 for i in genf:
     gens.append(genre[i])
