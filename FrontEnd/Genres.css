@@ -118,8 +118,11 @@ hr{
 .gpost h2{
     color: red;
     margin-bottom: 1em;
+    text-decoration-line: underline;
 }
 
 .glist{
     columns: 2;
+    font-weight: 400;
+    font-size: larger;
 }

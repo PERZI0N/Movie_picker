@@ -10,9 +10,15 @@ function Q1(){
     document.getElementsByName("Mood")
         .forEach(radio=>{
             if(radio.checked){
-                return SelectedChoices[0]= radio.id;
+                SelectedChoices[0]= radio.value;
             }
+            alert(SelectedChoices[0]);
         })};
+
+// function Q1next(){
+//     alert(SelectedChoices[0]);
+//     window.open("Q2.html");
+// }
 
 function Q2(){
     document.getElementsByName("Ocassion")
